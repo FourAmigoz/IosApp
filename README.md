@@ -62,7 +62,7 @@ An application which will allow students of UCI to visualize their potential wee
   * Back tab (comeback to class screen)
 
 ## Wireframes
-<img src="wirefram.jpeg" alt="drawing" width="200"/>
+<img src="wireframe.jpeg" alt="drawing" width="200"/>
 
 ### [BONUS] Digital Wireframes & Mockups
 
