@@ -5,61 +5,64 @@
 2. [Schema](#Schema)
 
 ## Overview
+
 ### Description
-[Description of your app]
+An application which will allow students of UCI to visualize their potential weekly schedule by interfacing with a webSOC API.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Calendar / Scheduler 
+- **Mobile:** IOS
+- **Story:** Analyze UCI schedule
+- **Market:** UCI Student Body 
+- **Habit:** Quarterly Year use 
+- **Scope:** 4 - 5 weeks to complete 
 
 ## Product Spec
-
 ### 1. User Stories (Required and Optional)
-
 **Required Must-have Stories**
-
-* [fill in your required user stories here]
-* ...
-
+* Build and design a course scheduler.
+* Be able to fetch data from webSOC and present it to the user.
+* Allow the user to add classes to a schedule.
 **Optional Nice-to-have Stories**
-
-* [fill in your required user stories here]
-* ...
-
+* Allow user to visualize schedule in calendar format.
+* Persisted Calendar.
+* Allow users to export calendar to iOS calendar or Google calendar.
+* Display ratemyprofessor and eatervals.
 ### 2. Screen Archetypes
-
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
-
+* Launch screen
+  * Briefly shows on app launch, something like an anteater.
+* webSOC screen
+  * User can enter information to filter their search against the webSOC api.
+  * Listing of courses through that filter are displayed here.
+* Schedule screen
+  * Schedule viewing screen, this will start as a simple list, eventually a calendar.
+* Classes sceen
+  * Show the number of units and what sections the user is enrolled in.
+* Finals screen
+  * Shows finals schedule.
 ### 3. Navigation
-
-**Tab Navigation** (Tab to Screen)
-
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
-
-**Flow Navigation** (Screen to Screen)
-
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Tab Navigation (Tab to Screen)
+  * Schedule
+  * Classes
+  * Finals
+* Flow Navigation (Screen to Screen)
+  * Launch screen
+  * webSOC screen
+  * Class Details 
+  * Calendar view
+  * Finals Details/week
+* Schedule screen/ Details of schedule
+  * Class tab
+  * Back tab (comeback to webSOC screen)
+* Class screen/ weekly schedule calendar view
+  * Back tab (comeback to Schedule screen)
+  * Finals tab
+* Finals screen/Final schedule
+  * Back tab (comeback to class screen)
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src=’wireframe.jpeg title='Wireframe' alt=''Wireframe'' />
 
 ### [BONUS] Digital Wireframes & Mockups
 
@@ -67,8 +70,10 @@
 
 ## Schema 
 [This section will be completed in Unit 9]
+
 ### Models
 [Add table of models]
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
