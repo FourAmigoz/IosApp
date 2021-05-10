@@ -62,19 +62,46 @@ An application which will allow students of UCI to visualize their potential wee
   * Back tab (comeback to class screen)
 
 ## Wireframes
-<img src="wireframe.jpeg" alt="drawing" width="800"/>
+<img src="wireframe.jpeg" alt="rough wireframe" width="800"/>
+
+Low Fidelity Wireframe
+<img src="low_fidelity_wireframe.jpeg" alt="Low Fidelity Wireframe" width="800"/>
 
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
-
 ### Models
-[Add table of models]
+#### Post
 
+   | Property      | Type     | Description | Example |
+   | ------------- | -------- | ------------| --------|
+   | term           | String     | Which year and quarter are you looking at? | 2019 Fall |
+   | GE             | String     | Return only if fulfils this GE category. | GE-2 |
+   | instructorName | String     | Return only classes being taught by this professor. | Pattis |
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of network requests by screen
+   - Home Feed Screen
+      - (Read/GET) Query webSOC api for classes matching parameters (we will need to write our own REST API service in our backend to expose the js API to our swift code):
+         ```js
+         // Import the module
+         const WebSocAPI = require('websoc-api');
+
+         //Specify our search parameters
+         const opts = {
+             term: '2019 Fall',
+             GE: 'GE-2',
+             instructorName: 'Pattis'
+         }
+
+         // Call the module, and when the promise resolves, print out the JSON returned
+         async function start() {
+             const result = await WebSocAPI.callWebSocAPI(opts);
+             console.log(result.schools[0].departments[0].deptComment);
+          }
+
+         start();
+         ```
+#### [OPTIONAL:] Existing API Endpoints
+##### API given for webSOC for use in js: https://www.npmjs.com/package/websoc-api
