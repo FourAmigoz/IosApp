@@ -105,3 +105,6 @@ Low Fidelity Wireframe
          ```
 #### [OPTIONAL:] Existing API Endpoints
 ##### API given for webSOC for use in js: https://www.npmjs.com/package/websoc-api
+
+## Progress
+<img src='https://recordit.co/Zhr9e0k0VR.gif'>
