@@ -21,14 +21,14 @@ An application which will allow students of UCI to visualize their potential wee
 ## Product Spec
 ### 1. User Stories (Required and Optional)
 **Required Must-have Stories**
-* Build and design a course scheduler.
-* Be able to fetch data from webSOC and present it to the user.
-* Allow the user to add classes to a schedule.
-**Optional Nice-to-have Stories**
-* Allow user to visualize schedule in calendar format.
-* Persisted Calendar.
-* Allow users to export calendar to iOS calendar or Google calendar.
-* Display ratemyprofessor and eatervals.
+- [ ] Build and design a course scheduler.
+- [x] Be able to fetch data from webSOC and present it to the user.
+- [ ] Allow the user to add classes to a schedule.
+- [ ] **Optional Nice-to-have Stories**
+- [ ] Allow user to visualize schedule in calendar format.
+- [ ] Persisted Calendar.
+- [ ] Allow users to export calendar to iOS calendar or Google calendar.
+- [ ] Display ratemyprofessor and eatervals.
 ### 2. Screen Archetypes
 * Launch screen
   * Briefly shows on app launch, something like an anteater.
