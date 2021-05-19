@@ -1,0 +1,6 @@
+framework module Pods_ZotPlanner {
+  umbrella header "Pods-ZotPlanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

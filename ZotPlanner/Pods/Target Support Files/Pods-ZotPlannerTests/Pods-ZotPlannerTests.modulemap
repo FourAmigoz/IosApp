@@ -1,0 +1,6 @@
+framework module Pods_ZotPlannerTests {
+  umbrella header "Pods-ZotPlannerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
