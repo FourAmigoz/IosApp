@@ -21,11 +21,13 @@
       "size" : "29x29"
     },
     {
+      "filename" : "zotIcon2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "zotIcon3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
