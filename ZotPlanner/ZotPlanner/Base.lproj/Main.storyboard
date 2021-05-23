@@ -95,10 +95,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <attributedString key="userComments">
+                                    <fragment content="asfsf"/>
+                                </attributedString>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hAx-Z6-rGx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                     </view>
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="nwy-5c-3SX"/>
                 </viewController>
