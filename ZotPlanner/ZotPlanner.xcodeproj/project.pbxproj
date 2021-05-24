@@ -18,6 +18,7 @@
 		E109C56B2654AA3300515A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E109C5692654AA3300515A7A /* LaunchScreen.storyboard */; };
 		E109C5762654AA3300515A7A /* ZotPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109C5752654AA3300515A7A /* ZotPlannerTests.swift */; };
 		E109C5812654AA3300515A7A /* ZotPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109C5802654AA3300515A7A /* ZotPlannerUITests.swift */; };
+		E1CF616F265B24230053F2BE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF616E265B24230053F2BE /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E109C57C2654AA3300515A7A /* ZotPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZotPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E109C5802654AA3300515A7A /* ZotPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZotPlannerUITests.swift; sourceTree = "<group>"; };
 		E109C5822654AA3300515A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CF616E265B24230053F2BE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		E109C55D2654AA3100515A7A /* ZotPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				E1CF616E265B24230053F2BE /* SearchViewController.swift */,
 				E109C55E2654AA3100515A7A /* AppDelegate.swift */,
 				E109C5602654AA3100515A7A /* SceneDelegate.swift */,
 				E109C5622654AA3100515A7A /* ViewController.swift */,
@@ -408,6 +411,7 @@
 			files = (
 				E109C5632654AA3100515A7A /* ViewController.swift in Sources */,
 				E109C55F2654AA3100515A7A /* AppDelegate.swift in Sources */,
+				E1CF616F265B24230053F2BE /* SearchViewController.swift in Sources */,
 				E109C5612654AA3100515A7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
