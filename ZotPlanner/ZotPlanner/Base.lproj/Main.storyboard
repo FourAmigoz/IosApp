@@ -77,6 +77,9 @@
                                 <state key="normal" title="Search">
                                     <color key="titleColor" red="0.0" green="0.42352941179999998" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="callAPI:" destination="UvV-oy-QaE" eventType="touchUpInside" id="4uW-zQ-oye"/>
+                                </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yZM-Aa-nsu" userLabel="TermPicker">
                                 <rect key="frame" x="43" y="309" width="324" height="43"/>
@@ -108,10 +111,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="nwy-5c-3SX"/>
                     <connections>
-                        <outlet property="GEPicker" destination="17G-La-l3X" id="4fp-tN-vem"/>
-                        <outlet property="courseNumberField" destination="wQA-a3-ZZb" id="Y60-ob-PE2"/>
-                        <outlet property="departmentPicker" destination="dQB-s7-Thi" id="M16-dR-W6h"/>
-                        <outlet property="termPicker" destination="yZM-Aa-nsu" id="7bW-99-TIX"/>
+                        <outlet property="GEPicker" destination="17G-La-l3X" id="vIU-lk-7mc"/>
+                        <outlet property="departmentPicker" destination="dQB-s7-Thi" id="pgH-xM-bw8"/>
+                        <outlet property="termPicker" destination="yZM-Aa-nsu" id="gxZ-n9-ilO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ouk-jl-lUw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
