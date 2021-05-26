@@ -109,5 +109,8 @@ Low Fidelity Wireframe
 ## Progress
 ### May 17,2021
 <img src='https://recordit.co/Zhr9e0k0VR.gif'>
+
 ### May 23,2021
 <img src='https://media.discordapp.net/attachments/833411250372476990/845590377507192852/Screen_Shot_2021-05-22_at_1.57.23_AM.png'>
+<img src='https://cdn.discordapp.com/attachments/833411250372476990/845562986272653353/Screen_Shot_2021-05-22_at_12.24.52_AM.png'>
+<img src='https://media.discordapp.net/attachments/833411250372476990/846072453281349652/Screen_Shot_2021-05-22_at_12.55.40_PM.png'/>
