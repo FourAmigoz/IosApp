@@ -21,7 +21,7 @@ An application which will allow students of UCI to visualize their potential wee
 ## Product Spec
 ### 1. User Stories (Required and Optional)
 **Required Must-have Stories**
-- [ ] Build and design a course scheduler.
+- [x] Build and design a course scheduler.
 - [x] Be able to fetch data from webSOC and present it to the user.
 - [ ] Allow the user to add classes to a schedule.
 - [ ] **Optional Nice-to-have Stories**
