@@ -107,4 +107,6 @@ Low Fidelity Wireframe
 ##### API given for webSOC for use in js: https://www.npmjs.com/package/websoc-api
 
 ## Progress
+### May 17, 2021
 <img src='https://recordit.co/Zhr9e0k0VR.gif'>
+### May 23, 2021
