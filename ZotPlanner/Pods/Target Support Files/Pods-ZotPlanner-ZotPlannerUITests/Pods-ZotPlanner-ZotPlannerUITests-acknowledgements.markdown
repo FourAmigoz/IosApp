@@ -24,6 +24,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+<<<<<<< HEAD
 ## FSCalendar
 
 Copyright (c) 2013-2016 FSCalendar (https://github.com/WenchaoD/FSCalendar)
@@ -50,6 +51,11 @@ THE SOFTWARE.
 ## QVRWeekView
 
 Copyright (c) 2017 Student Innovations vzw
+=======
+## PickerView
+
+Copyright (c) 2015 Filipe Alvarenga <ofilipealvarenga@gmail.com>
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

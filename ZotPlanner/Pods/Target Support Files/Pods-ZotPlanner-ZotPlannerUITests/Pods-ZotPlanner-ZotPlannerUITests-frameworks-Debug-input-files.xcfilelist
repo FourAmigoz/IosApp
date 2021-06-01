@@ -1,4 +1,8 @@
 ${PODS_ROOT}/Target Support Files/Pods-ZotPlanner-ZotPlannerUITests/Pods-ZotPlanner-ZotPlannerUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+<<<<<<< HEAD
 ${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework
 ${BUILT_PRODUCTS_DIR}/QVRWeekView/QVRWeekView.framework
+=======
+${BUILT_PRODUCTS_DIR}/PickerView/PickerView.framework
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e

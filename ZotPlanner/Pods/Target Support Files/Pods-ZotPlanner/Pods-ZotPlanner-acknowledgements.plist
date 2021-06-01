@@ -43,7 +43,11 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+<<<<<<< HEAD
 			<string>Copyright (c) 2013-2016 FSCalendar (https://github.com/WenchaoD/FSCalendar)
+=======
+			<string>Copyright (c) 2015 Filipe Alvarenga &lt;ofilipealvarenga@gmail.com&gt;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -66,6 +70,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
+<<<<<<< HEAD
 			<string>FSCalendar</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
@@ -96,6 +101,9 @@ THE SOFTWARE.
 			<string>MIT</string>
 			<key>Title</key>
 			<string>QVRWeekView</string>
+=======
+			<string>PickerView</string>
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

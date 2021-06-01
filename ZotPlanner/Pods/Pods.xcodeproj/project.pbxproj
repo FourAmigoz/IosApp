@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E6B37F8F701D7A233FD07656E04FD4 /* HTTPMethod.swift */; };
 		0673F3481EF6165F70E8F0990278BDC7 /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A740BC9A2AA0C0D583B69858222444 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		077888FDA8A96EF1B9C55C1674BF70A7 /* DateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F632B3F9A56DD3E6F4A25920CAE48 /* DateSupport.swift */; };
@@ -121,19 +122,82 @@
 
 /* Begin PBXContainerItemProxy section */
 		09193BB62D48F07E487FD5BE87FB431A /* PBXContainerItemProxy */ = {
+=======
+		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EB557C77A8FE1A126A4CAFD6E6843 /* HTTPMethod.swift */; };
+		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA63FC12BB17335BB746BA513972B51F /* Combine.swift */; };
+		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553AB4E59C721D559221D10BEEE76433 /* OperationQueue+Alamofire.swift */; };
+		0E8E80538EE9D48FDBBD16E8D5BC93D8 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF002B4572F5AECFF8CEAED4D9A4763 /* PickerView.swift */; };
+		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065ED04D53A8026A7BEC3E3F9F956D5 /* AFError.swift */; };
+		19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C6D519F1DC6A4336C1BC49A85C18A2 /* NetworkReachabilityManager.swift */; };
+		212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69C8020108FBDDF03304E8A0ECCB43F /* StringEncoding+Alamofire.swift */; };
+		218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BBBEF85D2539B5D912D93B4938F09E /* Protected.swift */; };
+		27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14F733E5E21C1B66C810A6F52D9245E /* DispatchQueue+Alamofire.swift */; };
+		32E3310006C1A990A5D813519FAEF219 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA40F4E3701EFC0B6136D8FEE8B1FB /* SessionDelegate.swift */; };
+		3DE41863D54CBBD90A95D9E03E023BC3 /* Pods-ZotPlanner-ZotPlannerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FECE5E97C5D292CF615529D2D66E2F /* Pods-ZotPlanner-ZotPlannerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40CCBE9CE90BB7A737E4DF12A02EB74F /* Pods-ZotPlannerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 898846E0DBE66EF38E4FCABF6BAB9E1E /* Pods-ZotPlannerTests-dummy.m */; };
+		45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE55AEBA8001E40AA36BFDFC0F863FDD /* MultipartFormData.swift */; };
+		476D5F33E25386C60D6BD75C4FA97C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C994FDCBE5ED3077BC094FE00019DE /* ServerTrustEvaluation.swift */; };
+		4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3773FC2F1B6295ABCA5BBB5355F945 /* ParameterEncoder.swift */; };
+		51EFFE99846912142B16425779623CA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		613A39E061868A3B4BCFBC0EEC19A25E /* Pods-ZotPlannerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 645700CD465E2A4998B73C0ED2011CEF /* Pods-ZotPlannerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E808AA286E7FE7F3B2F59F224F113912 /* EventMonitor.swift */; };
+		666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018ED2E3F0BC862BBE7705C6BB4095B /* RedirectHandler.swift */; };
+		66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C3AF39CF1E0CE0316F4E194C7844E /* Result+Alamofire.swift */; };
+		6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12294DAFB6B115A16C000270E4D53DE0 /* Session.swift */; };
+		6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A05DF89D162BF3B09967E73723D8A /* RequestTaskMap.swift */; };
+		6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E183326D82C512EF0D77A8DC3AC4C9 /* RequestInterceptor.swift */; };
+		72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC2D961900D826A2C012BB16DB89D5 /* AlamofireExtended.swift */; };
+		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3EB6D4EAD9826741C84DF20A9BA448E /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA9AEDA4523987F00BC4C21933DDD18 /* PickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 880B8D15C8008AA032D0579BC242FDC5 /* PickerView-dummy.m */; };
+		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A29C67A18091F800B3246353AB243A /* Notifications.swift */; };
+		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D35F637EF498FFBF0777D7AEF2186EB /* ResponseSerialization.swift */; };
+		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5002B12A8D16F705A7FFAC00F2085D9 /* HTTPHeaders.swift */; };
+		9347D81875EAD87A4CE7CF90B97E7366 /* Pods-ZotPlanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB07A47B300D03E8E056E16874743E1 /* Pods-ZotPlanner-dummy.m */; };
+		99F94503721FF05032477686CCE8BFFC /* Pods-ZotPlanner-ZotPlannerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5F0C2619D37E96259B5B0084040417 /* Pods-ZotPlanner-ZotPlannerUITests-dummy.m */; };
+		9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F6FA973C0737A7376EB0E1660D9CC /* URLConvertible+URLRequestConvertible.swift */; };
+		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A61A9695EEF57915A55F5CCB0CF2DA /* RetryPolicy.swift */; };
+		A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
+		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0165EF121A1C78A8EA63153CE1F0C7 /* CachedResponseHandler.swift */; };
+		B03D33EF9C18BF992FC84E5733713859 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513F49DA83FF48128F9EAB099601939 /* Response.swift */; };
+		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E726DFE961552F9790F8EDC514D80E82 /* Alamofire.swift */; };
+		C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 696F35C770D7C36D11C817DA93394499 /* Alamofire-dummy.m */; };
+		CBCC2DFCBA2750B2836B98B47502ACEA /* Pods-ZotPlanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 420900882B85805AD0182F16C87A8F56 /* Pods-ZotPlanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FBAD60A10853514537DA858E0C1A9 /* MultipartUpload.swift */; };
+		D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1AB754D8D515C1995D105FDD361305 /* ParameterEncoding.swift */; };
+		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2888564A6D83AE8B10074B9F97C7776E /* URLEncodedFormEncoder.swift */; };
+		D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9CD3B636B53475F62A504EF5DDD52 /* URLRequest+Alamofire.swift */; };
+		D99D12DE677519F350713882D44F44E4 /* PickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B083B817264E9234BEED431C2A96E4C /* PickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8227761801F694397C916EB3B6008E /* AuthenticationInterceptor.swift */; };
+		E36FAD7CB75AABA31568031AAEEE2922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A75DB581912019F7DE3F2A070B8DAD /* Request.swift */; };
+		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CB8E7F08C6DA4BCC114541C27E7AC /* Validation.swift */; };
+		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7566A30D67E2C20FBCC6DA45B6713A2 /* URLSessionConfiguration+Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		023F8C1A2FDA940B87758BA3FBD6DC40 /* PBXContainerItemProxy */ = {
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = CE0B191E20D9960101AD8D1CAB4AAFDA;
+			remoteInfo = PickerView;
 		};
+<<<<<<< HEAD
 		12AB773A8D8B7910BB31A4C6DB5BF507 /* PBXContainerItemProxy */ = {
+=======
+		7BD9266E1F326EF04CADD9FECAE7DC94 /* PBXContainerItemProxy */ = {
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1054AE8ACC65AE20A525B59A18B55C36;
 			remoteInfo = "Pods-ZotPlanner";
 		};
+<<<<<<< HEAD
 		26B14ABB41AB2730E3497948767D4C53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -163,6 +227,23 @@
 			remoteInfo = QVRWeekView;
 		};
 		963629E195BA597615C0D24B6D54748C /* PBXContainerItemProxy */ = {
+=======
+		7E00D6BE88DB6E2971170ECE724FA742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE0B191E20D9960101AD8D1CAB4AAFDA;
+			remoteInfo = PickerView;
+		};
+		8474E16CC465DB27FD7574DB28035F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		8B52BB15FF1B84DE7C525E8F51723A34 /* PBXContainerItemProxy */ = {
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -172,6 +253,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		01AD83FC0FD1EA82DE66DAEA95B40FD9 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
 		0433A960E0F2728BDE7056EE9EA3FECE /* Period.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Period.swift; path = QVRWeekView/Classes/Common/Period.swift; sourceTree = "<group>"; };
 		0C37075EBC2A334D488CF22404CC7CB6 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
@@ -230,10 +312,46 @@
 		7020EC2670775759B2CDCE07E3F15AA5 /* DayCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayCollectionView.swift; path = QVRWeekView/Classes/Views/DayCollectionView.swift; sourceTree = "<group>"; };
 		71FC6E35FB85C1D190ED214D084AD774 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		76D2987B05DB99E16012EBB1366C34F5 /* Pods_ZotPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZotPlannerTests.framework; path = "Pods-ZotPlannerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		06C6D519F1DC6A4336C1BC49A85C18A2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		07A798D4314EE6C2E03AE2DFDCCF7CA0 /* PickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PickerView.debug.xcconfig; sourceTree = "<group>"; };
+		0A8227761801F694397C916EB3B6008E /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		0D5C3AF39CF1E0CE0316F4E194C7844E /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		0DB07A47B300D03E8E056E16874743E1 /* Pods-ZotPlanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZotPlanner-dummy.m"; sourceTree = "<group>"; };
+		12294DAFB6B115A16C000270E4D53DE0 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		12C994FDCBE5ED3077BC094FE00019DE /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		141E3C38B2C489B71F9C86C5BEA69E9E /* Pods-ZotPlannerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZotPlannerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1504B27C76433D1634152A081553F055 /* PickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerView-prefix.pch"; sourceTree = "<group>"; };
+		1D35F637EF498FFBF0777D7AEF2186EB /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		1E2A05DF89D162BF3B09967E73723D8A /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		2888564A6D83AE8B10074B9F97C7776E /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		2B3773FC2F1B6295ABCA5BBB5355F945 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		2D6512B40BFA432C95D0629DF9A8F883 /* Pods-ZotPlanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZotPlanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B083B817264E9234BEED431C2A96E4C /* PickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerView-umbrella.h"; sourceTree = "<group>"; };
+		3C9653E8022ECEB21E7FCA075BF5CCDB /* Pods-ZotPlanner-ZotPlannerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZotPlanner-ZotPlannerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CF002B4572F5AECFF8CEAED4D9A4763 /* PickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerView.swift; path = Pod/Classes/PickerView.swift; sourceTree = "<group>"; };
+		420900882B85805AD0182F16C87A8F56 /* Pods-ZotPlanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZotPlanner-umbrella.h"; sourceTree = "<group>"; };
+		42A57B6F7CA3DEA0911117F5E0C7FF48 /* Pods-ZotPlanner-ZotPlannerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZotPlanner-ZotPlannerUITests.modulemap"; sourceTree = "<group>"; };
+		45B5E504BC4A12DDF28240792216DC35 /* Pods-ZotPlannerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZotPlannerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		49EB591B401FA551D509824F65D42B14 /* Pods_ZotPlanner_ZotPlannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZotPlanner_ZotPlannerUITests.framework; path = "Pods-ZotPlanner-ZotPlannerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6795B0AF08204EC682375D102E1952 /* PickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PickerView.modulemap; sourceTree = "<group>"; };
+		4F67B260EAC9B7AE26EF60892123D0D1 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		50BBBEF85D2539B5D912D93B4938F09E /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		535E710417AFE104BF92CB3909DD0045 /* Pods-ZotPlanner-ZotPlannerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZotPlanner-ZotPlannerUITests-Info.plist"; sourceTree = "<group>"; };
+		553AB4E59C721D559221D10BEEE76433 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBA40F4E3701EFC0B6136D8FEE8B1FB /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		60A154367EB89B880781325A6E7C032C /* PickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PickerView-Info.plist"; sourceTree = "<group>"; };
+		645700CD465E2A4998B73C0ED2011CEF /* Pods-ZotPlannerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZotPlannerTests-umbrella.h"; sourceTree = "<group>"; };
+		696F35C770D7C36D11C817DA93394499 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		76D2987B05DB99E16012EBB1366C34F5 /* Pods_ZotPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZotPlannerTests.framework; path = "Pods-ZotPlannerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E183326D82C512EF0D77A8DC3AC4C9 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 		78007885C82B526A667794A465697D5F /* Pods-ZotPlanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZotPlanner.modulemap"; sourceTree = "<group>"; };
 		7B3552438108115A150A113972A7AFAC /* Pods-ZotPlanner-ZotPlannerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZotPlanner-ZotPlannerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7BE1D083DDA93CA632A9D3713E9DBF76 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = QVRWeekView/Classes/Common/Extensions.swift; sourceTree = "<group>"; };
 		7F2672007EFBF972CC64898E939C587B /* Pods-ZotPlanner-ZotPlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZotPlanner-ZotPlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		8243B35D32BEE24FE392110E6B7ADF6E /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
 		8659159B173DE5A85FDC601B53EEC79A /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
 		86A124C914F42C2900B01A8646AFD1F8 /* EventView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EventView.xib; path = QVRWeekView/Classes/Xibs/EventView.xib; sourceTree = "<group>"; };
@@ -283,11 +401,36 @@
 		C15F802241D2BD397CF5DDD12327825D /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
 		C3FECE5E97C5D292CF615529D2D66E2F /* Pods-ZotPlanner-ZotPlannerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZotPlanner-ZotPlannerUITests-umbrella.h"; sourceTree = "<group>"; };
 		C6FC326CF0FCF4EC54FE8D7A00AB0A8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+=======
+		880B8D15C8008AA032D0579BC242FDC5 /* PickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PickerView-dummy.m"; sourceTree = "<group>"; };
+		898846E0DBE66EF38E4FCABF6BAB9E1E /* Pods-ZotPlannerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZotPlannerTests-dummy.m"; sourceTree = "<group>"; };
+		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8E0165EF121A1C78A8EA63153CE1F0C7 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		9065ED04D53A8026A7BEC3E3F9F956D5 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		953DAA013004B78E886DB82E57E74C1C /* Pods_ZotPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZotPlanner.framework; path = "Pods-ZotPlanner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A29C67A18091F800B3246353AB243A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		975169A040D5F8DA4903640907A79260 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E602EB65D140CDBAFF9A9D5774DA530 /* Pods-ZotPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZotPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		A03A87E195ADD30F134A645333DE6D9C /* PickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PickerView.framework; path = PickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A695D642A73F8258153E7D8E45964985 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		A6CF33280C1E976DFE1109DB769FDF51 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		A78CB8E7F08C6DA4BCC114541C27E7AC /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		AEB7D2057C793BA2BB0CA3350451F171 /* Pods-ZotPlannerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZotPlannerTests-Info.plist"; sourceTree = "<group>"; };
+		B255F410A82AD934785318D5BF945631 /* Pods-ZotPlanner-ZotPlannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZotPlanner-ZotPlannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B73FBAD60A10853514537DA858E0C1A9 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		BF1AB754D8D515C1995D105FDD361305 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		C018ED2E3F0BC862BBE7705C6BB4095B /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		C3FECE5E97C5D292CF615529D2D66E2F /* Pods-ZotPlanner-ZotPlannerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZotPlanner-ZotPlannerUITests-umbrella.h"; sourceTree = "<group>"; };
+		C674DE62C737F0C484EFC8156008769F /* PickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PickerView.release.xcconfig; sourceTree = "<group>"; };
+		C7A75DB581912019F7DE3F2A070B8DAD /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 		C7D7E9A7D9312CFCF8B7CD6527FD0F94 /* Pods-ZotPlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZotPlannerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C88BF8B3059679D7C078F41D6931CC40 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
 		C94185D2CF7B3094DBFF53FCE629FF76 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
 		CA2B766B0769F77B9A0444999873113A /* Pods-ZotPlanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZotPlanner-Info.plist"; sourceTree = "<group>"; };
 		CA5F0C2619D37E96259B5B0084040417 /* Pods-ZotPlanner-ZotPlannerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZotPlanner-ZotPlannerUITests-dummy.m"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		CC199C2C4F4C9DC3732B488EBF68D9F1 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
 		CFE85DCD7E0DA68D2C0CC798F67A14FD /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
 		D08C833AED7374E6952D188FEE055B60 /* DayDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayDate.swift; path = QVRWeekView/Classes/Common/DayDate.swift; sourceTree = "<group>"; };
@@ -306,10 +449,28 @@
 		E927094BAB34585128989AF746E69B66 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		EA69E0F6714B099C8083826551B63B1A /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
 		EB0C7D92FD29036CA2CB7CE164CEFC79 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+=======
+		CE2EB557C77A8FE1A126A4CAFD6E6843 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		D3EB6D4EAD9826741C84DF20A9BA448E /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		D69C8020108FBDDF03304E8A0ECCB43F /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		D7566A30D67E2C20FBCC6DA45B6713A2 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		D8BC2D961900D826A2C012BB16DB89D5 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		DACEDAED6CF4FF3EBEC3D434FF9D4D01 /* Pods-ZotPlannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZotPlannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE55AEBA8001E40AA36BFDFC0F863FDD /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		E2A61A9695EEF57915A55F5CCB0CF2DA /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		E5002B12A8D16F705A7FFAC00F2085D9 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		E513F49DA83FF48128F9EAB099601939 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		E726DFE961552F9790F8EDC514D80E82 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		E808AA286E7FE7F3B2F59F224F113912 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		E8608474BA594148EEEA21C2E2F86051 /* Pods-ZotPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZotPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		EA63FC12BB17335BB746BA513972B51F /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		EAA78E820DCCF66BE730551D7C51C902 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 		EB815F83E5ED3F88F79349570FCACDE2 /* Pods-ZotPlanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZotPlanner-frameworks.sh"; sourceTree = "<group>"; };
 		EC9F45203B7E8EE86AE3F8FC388438B3 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		ED09DC72CA3C11D36118311D64EA8C07 /* Customization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customization.swift; path = QVRWeekView/Classes/Common/Customization.swift; sourceTree = "<group>"; };
 		EDBFD9781B5C7ECC7AB7C272BF1236C5 /* Pods-ZotPlanner-ZotPlannerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZotPlanner-ZotPlannerUITests-frameworks.sh"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		F4BAA9935BB1EA6553EAE1662703934A /* Pods-ZotPlannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZotPlannerTests.modulemap"; sourceTree = "<group>"; };
 		F55189836A6A642C4942F5DB8BC73586 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		F6DB316FEEC204935DFCD1496D375489 /* QVRWeekView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QVRWeekView.debug.xcconfig; sourceTree = "<group>"; };
@@ -318,6 +479,14 @@
 		FCE073D2968CFF144E04E145A56288FA /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		FDA7CEF9B65C6F84225303D332DB714E /* Pods-ZotPlanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZotPlanner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FF8169B5B2D23F2AA8C40197C2C561D5 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+=======
+		F14F733E5E21C1B66C810A6F52D9245E /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		F3F9CD3B636B53475F62A504EF5DDD52 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		F4BAA9935BB1EA6553EAE1662703934A /* Pods-ZotPlannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZotPlannerTests.modulemap"; sourceTree = "<group>"; };
+		FA7F6FA973C0737A7376EB0E1660D9CC /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FDA7CEF9B65C6F84225303D332DB714E /* Pods-ZotPlanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZotPlanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +498,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		396948E50E8CC7488D743D382F425D99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,6 +521,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C742373AB85FF52130C6EE09F455F56 /* Foundation.framework in Frameworks */,
+=======
+		4B928DD0E814DE198CA735CE21FF8FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36FAD7CB75AABA31568031AAEEE2922 /* Foundation.framework in Frameworks */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E3934794ADCFCC532F178011DCD133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E3310006C1A990A5D813519FAEF219 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+<<<<<<< HEAD
+		B93B0F6F7A24587A13A4DC4628DF35C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F390EE3F6501EA735B348A94C0416E8E /* Foundation.framework in Frameworks */,
+				BA4618552515686F83F7873D094EB189 /* QuartzCore.framework in Frameworks */,
+				93D3B2EC7BAD20C4F2269A79F8FF972B /* UIKit.framework in Frameworks */,
+=======
+		72297E480D3086A7B816DF576CFCC068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03D33EF9C18BF992FC84E5733713859 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,16 +562,7 @@
 			files = (
 				A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */,
 				476D5F33E25386C60D6BD75C4FA97C67 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B93B0F6F7A24587A13A4DC4628DF35C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F390EE3F6501EA735B348A94C0416E8E /* Foundation.framework in Frameworks */,
-				BA4618552515686F83F7873D094EB189 /* QuartzCore.framework in Frameworks */,
-				93D3B2EC7BAD20C4F2269A79F8FF972B /* UIKit.framework in Frameworks */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +580,7 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		2F5C73E6AC52056E56E20BFA92887754 /* QVRWeekView */ = {
 			isa = PBXGroup;
 			children = (
@@ -421,6 +615,13 @@
 			children = (
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
 				95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */,
+=======
+		56C7A05AD362608A3CA3B9AD5FD3C4F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				A03A87E195ADD30F134A645333DE6D9C /* PickerView.framework */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 				953DAA013004B78E886DB82E57E74C1C /* Pods_ZotPlanner.framework */,
 				49EB591B401FA551D509824F65D42B14 /* Pods_ZotPlanner_ZotPlannerUITests.framework */,
 				76D2987B05DB99E16012EBB1366C34F5 /* Pods_ZotPlannerTests.framework */,
@@ -429,6 +630,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		4132918649CD03C0DFC862E7B80D15E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -440,6 +642,9 @@
 			sourceTree = "<group>";
 		};
 		7DA98BE9C2ECD71A9D68AB1A70595C39 /* Targets Support Files */ = {
+=======
+		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			isa = PBXGroup;
 			children = (
 				A6F6E7D886C83CA765210A0A95786BBD /* Pods-ZotPlanner */,
@@ -449,6 +654,7 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		880B59F83729CE602078203E0C40A90D /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -494,6 +700,9 @@
 			sourceTree = "<group>";
 		};
 		8AE60DE86B5DB88F5AA393934B133B91 /* FSCalendar */ = {
+=======
+		7DA98BE9C2ECD71A9D68AB1A70595C39 /* Targets Support Files */ = {
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			isa = PBXGroup;
 			children = (
 				8B0B786A2C8564840B47C05D63C56435 /* FSCalendar.h */,
@@ -531,6 +740,21 @@
 			);
 			name = FSCalendar;
 			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		9E5FADFF54E411A770619605020B4C92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A695D642A73F8258153E7D8E45964985 /* Alamofire.modulemap */,
+				696F35C770D7C36D11C817DA93394499 /* Alamofire-dummy.m */,
+				A6CF33280C1E976DFE1109DB769FDF51 /* Alamofire-Info.plist */,
+				EAA78E820DCCF66BE730551D7C51C902 /* Alamofire-prefix.pch */,
+				D3EB6D4EAD9826741C84DF20A9BA448E /* Alamofire-umbrella.h */,
+				4F67B260EAC9B7AE26EF60892123D0D1 /* Alamofire.debug.xcconfig */,
+				975169A040D5F8DA4903640907A79260 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		A6F6E7D886C83CA765210A0A95786BBD /* Pods-ZotPlanner */ = {
@@ -618,13 +842,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+<<<<<<< HEAD
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				4132918649CD03C0DFC862E7B80D15E3 /* Pods */,
 				390CE605980D8CF6DDBB04B58A6AC1D7 /* Products */,
+=======
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DF135B135177AB7AFA1DED81649B36C2 /* Pods */,
+				56C7A05AD362608A3CA3B9AD5FD3C4F8 /* Products */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 				7DA98BE9C2ECD71A9D68AB1A70595C39 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		E639C609D3286E985ECDEFFF61BDA6F6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,9 +866,70 @@
 				1E8331CEA669DFAFABC67423857548F5 /* FSCalendar-umbrella.h */,
 				0D5B22E73C12E6623517C7287600C27F /* FSCalendar.debug.xcconfig */,
 				E7757A103C5A047D33943747236D29EC /* FSCalendar.release.xcconfig */,
+=======
+		D863A58D3FA4FE0A34F4488489BAEEC9 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				9065ED04D53A8026A7BEC3E3F9F956D5 /* AFError.swift */,
+				E726DFE961552F9790F8EDC514D80E82 /* Alamofire.swift */,
+				D8BC2D961900D826A2C012BB16DB89D5 /* AlamofireExtended.swift */,
+				0A8227761801F694397C916EB3B6008E /* AuthenticationInterceptor.swift */,
+				8E0165EF121A1C78A8EA63153CE1F0C7 /* CachedResponseHandler.swift */,
+				EA63FC12BB17335BB746BA513972B51F /* Combine.swift */,
+				F14F733E5E21C1B66C810A6F52D9245E /* DispatchQueue+Alamofire.swift */,
+				E808AA286E7FE7F3B2F59F224F113912 /* EventMonitor.swift */,
+				E5002B12A8D16F705A7FFAC00F2085D9 /* HTTPHeaders.swift */,
+				CE2EB557C77A8FE1A126A4CAFD6E6843 /* HTTPMethod.swift */,
+				DE55AEBA8001E40AA36BFDFC0F863FDD /* MultipartFormData.swift */,
+				B73FBAD60A10853514537DA858E0C1A9 /* MultipartUpload.swift */,
+				06C6D519F1DC6A4336C1BC49A85C18A2 /* NetworkReachabilityManager.swift */,
+				95A29C67A18091F800B3246353AB243A /* Notifications.swift */,
+				553AB4E59C721D559221D10BEEE76433 /* OperationQueue+Alamofire.swift */,
+				2B3773FC2F1B6295ABCA5BBB5355F945 /* ParameterEncoder.swift */,
+				BF1AB754D8D515C1995D105FDD361305 /* ParameterEncoding.swift */,
+				50BBBEF85D2539B5D912D93B4938F09E /* Protected.swift */,
+				C018ED2E3F0BC862BBE7705C6BB4095B /* RedirectHandler.swift */,
+				C7A75DB581912019F7DE3F2A070B8DAD /* Request.swift */,
+				76E183326D82C512EF0D77A8DC3AC4C9 /* RequestInterceptor.swift */,
+				1E2A05DF89D162BF3B09967E73723D8A /* RequestTaskMap.swift */,
+				E513F49DA83FF48128F9EAB099601939 /* Response.swift */,
+				1D35F637EF498FFBF0777D7AEF2186EB /* ResponseSerialization.swift */,
+				0D5C3AF39CF1E0CE0316F4E194C7844E /* Result+Alamofire.swift */,
+				E2A61A9695EEF57915A55F5CCB0CF2DA /* RetryPolicy.swift */,
+				12C994FDCBE5ED3077BC094FE00019DE /* ServerTrustEvaluation.swift */,
+				12294DAFB6B115A16C000270E4D53DE0 /* Session.swift */,
+				5EBA40F4E3701EFC0B6136D8FEE8B1FB /* SessionDelegate.swift */,
+				D69C8020108FBDDF03304E8A0ECCB43F /* StringEncoding+Alamofire.swift */,
+				FA7F6FA973C0737A7376EB0E1660D9CC /* URLConvertible+URLRequestConvertible.swift */,
+				2888564A6D83AE8B10074B9F97C7776E /* URLEncodedFormEncoder.swift */,
+				F3F9CD3B636B53475F62A504EF5DDD52 /* URLRequest+Alamofire.swift */,
+				D7566A30D67E2C20FBCC6DA45B6713A2 /* URLSessionConfiguration+Alamofire.swift */,
+				A78CB8E7F08C6DA4BCC114541C27E7AC /* Validation.swift */,
+				9E5FADFF54E411A770619605020B4C92 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		DF135B135177AB7AFA1DED81649B36C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D863A58D3FA4FE0A34F4488489BAEEC9 /* Alamofire */,
+				E3F74CC96544FD6F4EDF91B92C4B27D3 /* PickerView */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		E3F74CC96544FD6F4EDF91B92C4B27D3 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3CF002B4572F5AECFF8CEAED4D9A4763 /* PickerView.swift */,
+				E9468FF873F82B5C2E1F9484AB83DD0B /* Support Files */,
+			);
+			name = PickerView;
+			path = PickerView;
 			sourceTree = "<group>";
 		};
 		E6D450F68FEF4D8C22A17904CBF559D0 /* Pods-ZotPlanner-ZotPlannerUITests */ = {
@@ -657,9 +949,32 @@
 			path = "Target Support Files/Pods-ZotPlanner-ZotPlannerUITests";
 			sourceTree = "<group>";
 		};
+		E9468FF873F82B5C2E1F9484AB83DD0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6795B0AF08204EC682375D102E1952 /* PickerView.modulemap */,
+				880B8D15C8008AA032D0579BC242FDC5 /* PickerView-dummy.m */,
+				60A154367EB89B880781325A6E7C032C /* PickerView-Info.plist */,
+				1504B27C76433D1634152A081553F055 /* PickerView-prefix.pch */,
+				3B083B817264E9234BEED431C2A96E4C /* PickerView-umbrella.h */,
+				07A798D4314EE6C2E03AE2DFDCCF7CA0 /* PickerView.debug.xcconfig */,
+				C674DE62C737F0C484EFC8156008769F /* PickerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PickerView";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1F61F2ACFFE9BFBF703761A9B486FBBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99D12DE677519F350713882D44F44E4 /* PickerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41FA0336130F97843C9D8954BC00E253 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -668,11 +983,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		783CA936A787665C05D1F5C4B04EF5D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E77A92192A82421203E0A3BE1688B941 /* QVRWeekView-umbrella.h in Headers */,
+=======
+		5D431EDBB83C5FC1F260F84CD8C045FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE41863D54CBBD90A95D9E03E023BC3 /* Pods-ZotPlanner-ZotPlannerUITests-umbrella.h in Headers */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +1007,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		8C3247BDA3A9E9FFB3601C0FD4012F77 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -721,6 +1045,13 @@
 				0673F3481EF6165F70E8F0990278BDC7 /* FSCalendarStickyHeader.h in Headers */,
 				4B11C48CCA7FD866A774B0E49FB595DA /* FSCalendarTransitionCoordinator.h in Headers */,
 				91A96B98AD78AAD881AB6389B1368405 /* FSCalendarWeekdayView.h in Headers */,
+=======
+		FC13EF256927E040632406D55521BA28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCC2DFCBA2750B2836B98B47502ACEA /* Pods-ZotPlanner-umbrella.h in Headers */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,19 +1060,33 @@
 /* Begin PBXNativeTarget section */
 		1054AE8ACC65AE20A525B59A18B55C36 /* Pods-ZotPlanner */ = {
 			isa = PBXNativeTarget;
+<<<<<<< HEAD
 			buildConfigurationList = 985A67B4A646CD0716BFF001EEFA8B54 /* Build configuration list for PBXNativeTarget "Pods-ZotPlanner" */;
 			buildPhases = (
 				9ABF20564C7A808B8C0FF30B7E9366CB /* Headers */,
 				36B52A9F4A48604A963BAFA13D8BCDC6 /* Sources */,
 				57F47D69464E4AB3B76F9CD8688893E3 /* Frameworks */,
 				2103010A934A7029FDE64963CA67D6BD /* Resources */,
+=======
+			buildConfigurationList = DD12023B73849BDD7CC06D3ED45DF6A3 /* Build configuration list for PBXNativeTarget "Pods-ZotPlanner" */;
+			buildPhases = (
+				FC13EF256927E040632406D55521BA28 /* Headers */,
+				F2358F69F5AE9BFEEFB5CF260F0AFA05 /* Sources */,
+				50E3934794ADCFCC532F178011DCD133 /* Frameworks */,
+				1D1B36FBD23229B5A36443ED90BC93B1 /* Resources */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				E1AF56C079A94A548BD527D380CC491E /* PBXTargetDependency */,
 				914E1B51152D070910F1C09B618060BF /* PBXTargetDependency */,
 				10959AD3DE64C5109A2E617B8767D353 /* PBXTargetDependency */,
+=======
+				2ACC4DF722E497CDE45CFA567D721493 /* PBXTargetDependency */,
+				018AD286BEF8C3A8CA9945865227643B /* PBXTargetDependency */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			name = "Pods-ZotPlanner";
 			productName = "Pods-ZotPlanner";
@@ -778,7 +1123,11 @@
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				999DC64B791F5AD0030D55633D59E3CC /* PBXTargetDependency */,
+=======
+				6E4CA697B3513704D9F3653A7D5F9001 /* PBXTargetDependency */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			name = "Pods-ZotPlannerTests";
 			productName = "Pods-ZotPlannerTests";
@@ -787,25 +1136,40 @@
 		};
 		3D1257ADF2B68892C5AEFA6936F9E3EC /* Pods-ZotPlanner-ZotPlannerUITests */ = {
 			isa = PBXNativeTarget;
+<<<<<<< HEAD
 			buildConfigurationList = 112B3ADC5A42EF1F987DB4299465C5DA /* Build configuration list for PBXNativeTarget "Pods-ZotPlanner-ZotPlannerUITests" */;
 			buildPhases = (
 				8C3247BDA3A9E9FFB3601C0FD4012F77 /* Headers */,
 				5DEA96E3B35A7DBE5C0443990449CA4F /* Sources */,
 				7FFE44F1BA67DEF09EB5FAF793166BB1 /* Frameworks */,
 				4CA03E65C162DD08717BCB33DEDDFF3B /* Resources */,
+=======
+			buildConfigurationList = F06812C3089AC18FCB505F7C08985D2A /* Build configuration list for PBXNativeTarget "Pods-ZotPlanner-ZotPlannerUITests" */;
+			buildPhases = (
+				5D431EDBB83C5FC1F260F84CD8C045FC /* Headers */,
+				A5F449625F4471793D3ADC6773C6A137 /* Sources */,
+				72297E480D3086A7B816DF576CFCC068 /* Frameworks */,
+				BD1090C3C6E7115479370FA0531F96FB /* Resources */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				288C31CF92035CD3162FA810E0838514 /* PBXTargetDependency */,
 				61B24BDD63A8ECA4F28CDC2C73D4919F /* PBXTargetDependency */,
 				17E60EC33C4BE873FD7581F4FF181D65 /* PBXTargetDependency */,
+=======
+				A431ECCBD641C621703814F7C0F179EB /* PBXTargetDependency */,
+				10FB3FAB52C46A05D4EC23DBF58373A5 /* PBXTargetDependency */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			name = "Pods-ZotPlanner-ZotPlannerUITests";
 			productName = "Pods-ZotPlanner-ZotPlannerUITests";
 			productReference = 49EB591B401FA551D509824F65D42B14 /* Pods_ZotPlanner_ZotPlannerUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+<<<<<<< HEAD
 		6409EB8885DE18B9373C8034E4E1DA51 /* QVRWeekView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAC00537888DE12EBBCBCBDEAED3B8D0 /* Build configuration list for PBXNativeTarget "QVRWeekView" */;
@@ -814,14 +1178,30 @@
 				1B07C126155A379CB155812ACFAFE412 /* Sources */,
 				396948E50E8CC7488D743D382F425D99 /* Frameworks */,
 				92D78EEACD233FCE524DFE8DEAF874B5 /* Resources */,
+=======
+		CE0B191E20D9960101AD8D1CAB4AAFDA /* PickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D03951563566CD67ECC5CC9AFABEB17 /* Build configuration list for PBXNativeTarget "PickerView" */;
+			buildPhases = (
+				1F61F2ACFFE9BFBF703761A9B486FBBC /* Headers */,
+				F5037ACE52BB674D71FA7482C2874232 /* Sources */,
+				4B928DD0E814DE198CA735CE21FF8FD6 /* Frameworks */,
+				6909E7A50C6E573571C18C0DAF2E6175 /* Resources */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+<<<<<<< HEAD
 			name = QVRWeekView;
 			productName = QVRWeekView;
 			productReference = 419A22CA24E258217FE659E4A2D4D2BA /* QVRWeekView.framework */;
+=======
+			name = PickerView;
+			productName = PickerView;
+			productReference = A03A87E195ADD30F134A645333DE6D9C /* PickerView.framework */;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -860,12 +1240,20 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+<<<<<<< HEAD
 			productRefGroup = 390CE605980D8CF6DDBB04B58A6AC1D7 /* Products */;
+=======
+			productRefGroup = 56C7A05AD362608A3CA3B9AD5FD3C4F8 /* Products */;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+<<<<<<< HEAD
 				13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */,
+=======
+				CE0B191E20D9960101AD8D1CAB4AAFDA /* PickerView */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 				1054AE8ACC65AE20A525B59A18B55C36 /* Pods-ZotPlanner */,
 				3D1257ADF2B68892C5AEFA6936F9E3EC /* Pods-ZotPlanner-ZotPlannerUITests */,
 				1B3BA42EFD330E43A7AA33F86FD5A607 /* Pods-ZotPlannerTests */,
@@ -875,13 +1263,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
 		2103010A934A7029FDE64963CA67D6BD /* Resources */ = {
+=======
+		1D1B36FBD23229B5A36443ED90BC93B1 /* Resources */ = {
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		4CA03E65C162DD08717BCB33DEDDFF3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -900,26 +1293,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */ = {
+=======
+		6909E7A50C6E573571C18C0DAF2E6175 /* Resources */ = {
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B194DADBBDCC4B83F472C6357886D264 /* Resources */ = {
+		9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		F55CA98E8C93B232101DADF83D8625F6 /* Resources */ = {
+=======
+		B194DADBBDCC4B83F472C6357886D264 /* Resources */ = {
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -947,9 +1348,18 @@
 				09636943F80F18B72CFBDBCFF58422F7 /* Util.swift in Sources */,
 				AF58FB049D7A0E98593104E8FC0F0164 /* WeekView.swift in Sources */,
 				CDBFD22247235F4B6B30DB331EB794C3 /* ZoomOffsetPreservation.swift in Sources */,
+=======
+		BD1090C3C6E7115479370FA0531F96FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -993,6 +1403,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		36B52A9F4A48604A963BAFA13D8BCDC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1029,6 +1440,13 @@
 				1E0C257A13260508F9FC03D637764614 /* FSCalendarStickyHeader.m in Sources */,
 				D192D52340F6B27DA840BE2FA9F49EE9 /* FSCalendarTransitionCoordinator.m in Sources */,
 				3F0F6CEFD0801BEA64D1A265AE92FC05 /* FSCalendarWeekdayView.m in Sources */,
+=======
+		A5F449625F4471793D3ADC6773C6A137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F94503721FF05032477686CCE8BFFC /* Pods-ZotPlanner-ZotPlannerUITests-dummy.m in Sources */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1040,9 +1458,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2358F69F5AE9BFEEFB5CF260F0AFA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9347D81875EAD87A4CE7CF90B97E7366 /* Pods-ZotPlanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5037ACE52BB674D71FA7482C2874232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA9AEDA4523987F00BC4C21933DDD18 /* PickerView-dummy.m in Sources */,
+				0E8E80538EE9D48FDBBD16E8D5BC93D8 /* PickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< HEAD
 		10959AD3DE64C5109A2E617B8767D353 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QVRWeekView;
@@ -1084,13 +1520,107 @@
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
 			targetProxy = 09193BB62D48F07E487FD5BE87FB431A /* PBXContainerItemProxy */;
+=======
+		018AD286BEF8C3A8CA9945865227643B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PickerView;
+			target = CE0B191E20D9960101AD8D1CAB4AAFDA /* PickerView */;
+			targetProxy = 023F8C1A2FDA940B87758BA3FBD6DC40 /* PBXContainerItemProxy */;
+		};
+		10FB3FAB52C46A05D4EC23DBF58373A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PickerView;
+			target = CE0B191E20D9960101AD8D1CAB4AAFDA /* PickerView */;
+			targetProxy = 7E00D6BE88DB6E2971170ECE724FA742 /* PBXContainerItemProxy */;
+		};
+		2ACC4DF722E497CDE45CFA567D721493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 8474E16CC465DB27FD7574DB28035F80 /* PBXContainerItemProxy */;
+		};
+		6E4CA697B3513704D9F3653A7D5F9001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZotPlanner";
+			target = 1054AE8ACC65AE20A525B59A18B55C36 /* Pods-ZotPlanner */;
+			targetProxy = 7BD9266E1F326EF04CADD9FECAE7DC94 /* PBXContainerItemProxy */;
+		};
+		A431ECCBD641C621703814F7C0F179EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 8B52BB15FF1B84DE7C525E8F51723A34 /* PBXContainerItemProxy */;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		00FC5BB7E0FE8307D02BE61DB816E88F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9FE61BEBD29CEFEE2117505755B60C6B /* QVRWeekView.release.xcconfig */;
+			buildSettings = {
+=======
+		2444D36F2CB5FF3F9469EF5F6322EA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F67B260EAC9B7AE26EF60892123D0D1 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
+				GCC_PREFIX_HEADER = "Target Support Files/QVRWeekView/QVRWeekView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QVRWeekView/QVRWeekView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+=======
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+<<<<<<< HEAD
+				MODULEMAP_FILE = "Target Support Files/QVRWeekView/QVRWeekView.modulemap";
+				PRODUCT_MODULE_NAME = QVRWeekView;
+				PRODUCT_NAME = QVRWeekView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+=======
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43778E088BC1696854736B16EEC256F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+<<<<<<< HEAD
+			baseConfigurationReference = B3F17FA3266D86CCE34D454EC16EB5DF /* Alamofire.debug.xcconfig */;
+=======
+			baseConfigurationReference = 07A798D4314EE6C2E03AE2DFDCCF7CA0 /* PickerView.debug.xcconfig */;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1100,33 +1630,41 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QVRWeekView/QVRWeekView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QVRWeekView/QVRWeekView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PickerView/PickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PickerView/PickerView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+<<<<<<< HEAD
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/QVRWeekView/QVRWeekView.modulemap";
-				PRODUCT_MODULE_NAME = QVRWeekView;
-				PRODUCT_NAME = QVRWeekView;
+				MODULEMAP_FILE = "Target Support Files/PickerView/PickerView.modulemap";
+				PRODUCT_MODULE_NAME = PickerView;
+				PRODUCT_NAME = PickerView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		2444D36F2CB5FF3F9469EF5F6322EA10 /* Debug */ = {
+<<<<<<< HEAD
+		3FCA1F46F999D1CD5D67398420B72E98 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3F17FA3266D86CCE34D454EC16EB5DF /* Alamofire.debug.xcconfig */;
+=======
+		5394C2103448AFD8163F6CA4BA065E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2672007EFBF972CC64898E939C587B /* Pods-ZotPlanner-ZotPlannerUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1136,30 +1674,33 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZotPlanner-ZotPlannerUITests/Pods-ZotPlanner-ZotPlannerUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZotPlanner-ZotPlannerUITests/Pods-ZotPlanner-ZotPlannerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		3FCA1F46F999D1CD5D67398420B72E98 /* Release */ = {
+		58583FA4456D05600135E984411F4D30 /* Release */ = {
 			isa = XCBuildConfiguration;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			baseConfigurationReference = 9E602EB65D140CDBAFF9A9D5774DA530 /* Pods-ZotPlanner.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -1362,9 +1903,48 @@
 			};
 			name = Debug;
 		};
+		766E162DC76C2B9BB0AD525B927CA105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C674DE62C737F0C484EFC8156008769F /* PickerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PickerView/PickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PickerView/PickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PickerView/PickerView.modulemap";
+				PRODUCT_MODULE_NAME = PickerView;
+				PRODUCT_NAME = PickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9B66E952E27F29569285AB82461A2F34 /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 25368E9AF1F33C881E8C55B77566CEFC /* Alamofire.release.xcconfig */;
+=======
+			baseConfigurationReference = 975169A040D5F8DA4903640907A79260 /* Alamofire.release.xcconfig */;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1398,7 +1978,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		B7E3F96C6B6A72004C719DFE50DF8A0F /* Release */ = {
+=======
+		CD4B1DCA5CB0928C81578BC0B90F85A8 /* Debug */ = {
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7F2672007EFBF972CC64898E939C587B /* Pods-ZotPlanner-ZotPlannerUITests.release.xcconfig */;
 			buildSettings = {
@@ -1470,9 +2054,15 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		BEE67060E75E27E4CCA0A303B07BD25A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B255F410A82AD934785318D5BF945631 /* Pods-ZotPlanner-ZotPlannerUITests.debug.xcconfig */;
+=======
+		D559F8086247AD84A630902098D776FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8608474BA594148EEEA21C2E2F86051 /* Pods-ZotPlanner.debug.xcconfig */;
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1484,7 +2074,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZotPlanner-ZotPlannerUITests/Pods-ZotPlanner-ZotPlannerUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZotPlanner/Pods-ZotPlanner-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1493,7 +2083,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZotPlanner-ZotPlannerUITests/Pods-ZotPlanner-ZotPlannerUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZotPlanner/Pods-ZotPlanner.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1502,6 +2092,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+<<<<<<< HEAD
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1571,10 +2162,12 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+=======
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		E450618B7D426B5F6B7050C8F6C0CE21 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1653,6 +2246,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		112B3ADC5A42EF1F987DB4299465C5DA /* Build configuration list for PBXNativeTarget "Pods-ZotPlanner-ZotPlannerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1667,6 +2261,13 @@
 			buildConfigurations = (
 				C9D8A777643BBEC6139AA8A963349D4C /* Debug */,
 				C9FE9FE12E4D706F3987DC0AFBD314FE /* Release */,
+=======
+		1D03951563566CD67ECC5CC9AFABEB17 /* Build configuration list for PBXNativeTarget "PickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43778E088BC1696854736B16EEC256F1 /* Debug */,
+				766E162DC76C2B9BB0AD525B927CA105 /* Release */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1689,20 +2290,37 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		985A67B4A646CD0716BFF001EEFA8B54 /* Build configuration list for PBXNativeTarget "Pods-ZotPlanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E450618B7D426B5F6B7050C8F6C0CE21 /* Debug */,
 				3FCA1F46F999D1CD5D67398420B72E98 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+=======
 		AA43D19D196AB8E899A5DB2F23BFD520 /* Build configuration list for PBXNativeTarget "Pods-ZotPlannerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBA843DF1605990D4B83E7FC0E3A7138 /* Debug */,
 				7168FFD3F0760F9ACCCCE9A8881C4DDB /* Release */,
+>>>>>>> 1a87e269c8248f068756b25753022d6584e34f2e
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD12023B73849BDD7CC06D3ED45DF6A3 /* Build configuration list for PBXNativeTarget "Pods-ZotPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D559F8086247AD84A630902098D776FE /* Debug */,
+				58583FA4456D05600135E984411F4D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06812C3089AC18FCB505F7C08985D2A /* Build configuration list for PBXNativeTarget "Pods-ZotPlanner-ZotPlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4B1DCA5CB0928C81578BC0B90F85A8 /* Debug */,
+				5394C2103448AFD8163F6CA4BA065E7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

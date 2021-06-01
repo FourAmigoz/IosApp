@@ -19,6 +19,8 @@
 		E109C5762654AA3300515A7A /* ZotPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109C5752654AA3300515A7A /* ZotPlannerTests.swift */; };
 		E109C5812654AA3300515A7A /* ZotPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109C5802654AA3300515A7A /* ZotPlannerUITests.swift */; };
 		E1A92066265B48A100147B63 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A92065265B48A100147B63 /* SearchViewController.swift */; };
+		E1FDEC872665FD61001498F1 /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDEC862665FD61001498F1 /* TestingViewController.swift */; };
+		E1FDEC8C2665FE1E001498F1 /* PickerExamplesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDEC8B2665FE1E001498F1 /* PickerExamplesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		E109C5802654AA3300515A7A /* ZotPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZotPlannerUITests.swift; sourceTree = "<group>"; };
 		E109C5822654AA3300515A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A92065265B48A100147B63 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E1FDEC862665FD61001498F1 /* TestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
+		E1FDEC8B2665FE1E001498F1 /* PickerExamplesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExamplesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 				E109C5692654AA3300515A7A /* LaunchScreen.storyboard */,
 				E109C56C2654AA3300515A7A /* Info.plist */,
 				E1A92065265B48A100147B63 /* SearchViewController.swift */,
+				E1FDEC862665FD61001498F1 /* TestingViewController.swift */,
+				E1FDEC8B2665FE1E001498F1 /* PickerExamplesTableViewController.swift */,
 			);
 			path = ZotPlanner;
 			sourceTree = "<group>";
@@ -409,10 +415,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FDEC8C2665FE1E001498F1 /* PickerExamplesTableViewController.swift in Sources */,
 				E109C5632654AA3100515A7A /* ViewController.swift in Sources */,
 				E109C55F2654AA3100515A7A /* AppDelegate.swift in Sources */,
 				E1A92066265B48A100147B63 /* SearchViewController.swift in Sources */,
 				E109C5612654AA3100515A7A /* SceneDelegate.swift in Sources */,
+				E1FDEC872665FD61001498F1 /* TestingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
