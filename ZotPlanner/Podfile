@@ -7,6 +7,8 @@ target 'ZotPlanner' do
 
   # Pods for ZotPlanner
   pod 'Alamofire'
+  pod 'QVRWeekView'
+  pod 'FSCalendar'
 
   target 'ZotPlannerTests' do
     inherit! :search_paths
