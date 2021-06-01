@@ -1,16 +1,20 @@
 PODS:
   - Alamofire (5.4.3)
+  - PickerView (0.4.0)
 
 DEPENDENCIES:
   - Alamofire
+  - PickerView
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - PickerView
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  PickerView: a736ea986d992aa3ef32423f475fdf3f3a0cf7d4
 
-PODFILE CHECKSUM: 9196e71f3370e11823269aaa28bb7cee3754ee89
+PODFILE CHECKSUM: c69c45a44b11142d8b8aca3d28fa8fd4c5e2fcfb
 
 COCOAPODS: 1.10.1
