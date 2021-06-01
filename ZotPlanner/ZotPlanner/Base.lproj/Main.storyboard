@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qM3-cO-cQG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PNb-qs-op2">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -81,14 +81,6 @@
                                     <action selector="callAPI:" destination="UvV-oy-QaE" eventType="touchUpInside" id="4uW-zQ-oye"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dQB-s7-Thi" userLabel="DepartmentPicker">
-                                <rect key="frame" x="43" y="402" width="326" height="43"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="17G-La-l3X" userLabel="GeneralEducationPicker">
-                                <rect key="frame" x="43" y="538" width="326" height="43"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wQA-a3-ZZb" userLabel="CourseNumberField">
                                 <rect key="frame" x="239" y="453" width="128" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -98,12 +90,24 @@
                                     <fragment content="asfsf"/>
                                 </attributedString>
                             </textField>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cf1-hO-HT1" customClass="PickerView" customModule="PickerView">
-                                <rect key="frame" x="44" y="313" width="325" height="41"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Term" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="itF-4a-VZQ">
+                                <rect key="frame" x="44" y="313" width="317" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                            </view>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Department" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mke-pg-7DC">
+                                <rect key="frame" x="43" y="404" width="318" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select GE Requirement" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cHA-sx-bss">
+                                <rect key="frame" x="44" y="540" width="317" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hAx-Z6-rGx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -113,14 +117,14 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="nwy-5c-3SX"/>
                     <connections>
-                        <outlet property="departmentPicker" destination="dQB-s7-Thi" id="Kl6-a2-fbv"/>
-                        <outlet property="gePicker" destination="17G-La-l3X" id="MDF-2O-U0f"/>
-                        <outlet property="termPicker" destination="cf1-hO-HT1" id="scS-Rm-nDA"/>
+                        <outlet property="schoolDepartment" destination="mke-pg-7DC" id="1Mo-PB-MeA"/>
+                        <outlet property="schoolGE" destination="cHA-sx-bss" id="H8V-eB-eKh"/>
+                        <outlet property="schoolTerm" destination="itF-4a-VZQ" id="2mU-Hv-6fH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ouk-jl-lUw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3417" y="852"/>
+            <point key="canvasLocation" x="-3417.3913043478265" y="851.78571428571422"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="SxR-tY-Syb">
@@ -629,35 +633,6 @@
             </objects>
             <point key="canvasLocation" x="-3417" y="1625"/>
         </scene>
-        <!--Search-->
-        <scene sceneID="C1f-bh-q0e">
-            <objects>
-                <viewController id="qM3-cO-cQG" customClass="TestingViewController" customModule="ZotPlanner" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WrK-nC-d70">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hMj-xe-mIg" customClass="PickerView" customModule="PickerView">
-                                <rect key="frame" x="53" y="247" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="nux-kM-gAJ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <accessibility key="accessibilityConfiguration">
-                            <bool key="isElement" value="YES"/>
-                        </accessibility>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="yHW-8C-3UU"/>
-                    <connections>
-                        <outlet property="examplePicker" destination="hMj-xe-mIg" id="UQx-cB-MtW"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2dw-sM-evc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2591" y="1625"/>
-        </scene>
     </scenes>
     <resources>
         <image name="book" catalog="system" width="128" height="102"/>
@@ -666,9 +641,6 @@
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="plus" width="160" height="160"/>
         <image name="zot" width="229" height="220"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
