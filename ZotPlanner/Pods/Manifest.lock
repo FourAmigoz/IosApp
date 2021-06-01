@@ -1,20 +1,28 @@
 PODS:
   - Alamofire (5.4.3)
+  - FSCalendar (2.8.2)
   - PickerView (0.4.0)
+  - QVRWeekView (0.14.1)
 
 DEPENDENCIES:
   - Alamofire
+  - FSCalendar
   - PickerView
+  - QVRWeekView
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FSCalendar
     - PickerView
+    - QVRWeekView
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
   PickerView: a736ea986d992aa3ef32423f475fdf3f3a0cf7d4
+  QVRWeekView: 8b68e870e17bd970f44a5a2017e0bd031c825af3
 
-PODFILE CHECKSUM: c69c45a44b11142d8b8aca3d28fa8fd4c5e2fcfb
+PODFILE CHECKSUM: 379388460151805563b483029445e3baeb0a3252
 
 COCOAPODS: 1.10.1
