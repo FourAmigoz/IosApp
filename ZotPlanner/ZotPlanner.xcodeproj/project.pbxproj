@@ -18,6 +18,12 @@
 		E109C56B2654AA3300515A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E109C5692654AA3300515A7A /* LaunchScreen.storyboard */; };
 		E109C5762654AA3300515A7A /* ZotPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109C5752654AA3300515A7A /* ZotPlannerTests.swift */; };
 		E109C5812654AA3300515A7A /* ZotPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109C5802654AA3300515A7A /* ZotPlannerUITests.swift */; };
+		E10B11642668D05F009E18D3 /* APIGEs.txt in Resources */ = {isa = PBXBuildFile; fileRef = E10B115E2668D05E009E18D3 /* APIGEs.txt */; };
+		E10B11652668D05F009E18D3 /* APITerms.txt in Resources */ = {isa = PBXBuildFile; fileRef = E10B115F2668D05E009E18D3 /* APITerms.txt */; };
+		E10B11662668D05F009E18D3 /* APIDepartments.txt in Resources */ = {isa = PBXBuildFile; fileRef = E10B11602668D05E009E18D3 /* APIDepartments.txt */; };
+		E10B11672668D05F009E18D3 /* readableTerms.txt in Resources */ = {isa = PBXBuildFile; fileRef = E10B11612668D05F009E18D3 /* readableTerms.txt */; };
+		E10B11682668D05F009E18D3 /* readableDepartments.txt in Resources */ = {isa = PBXBuildFile; fileRef = E10B11622668D05F009E18D3 /* readableDepartments.txt */; };
+		E10B11692668D05F009E18D3 /* readableGEs.txt in Resources */ = {isa = PBXBuildFile; fileRef = E10B11632668D05F009E18D3 /* readableGEs.txt */; };
 		E1A92066265B48A100147B63 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A92065265B48A100147B63 /* SearchViewController.swift */; };
 		E1FDEC872665FD61001498F1 /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDEC862665FD61001498F1 /* TestingViewController.swift */; };
 		E1FDEC8C2665FE1E001498F1 /* PickerExamplesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDEC8B2665FE1E001498F1 /* PickerExamplesTableViewController.swift */; };
@@ -64,6 +70,12 @@
 		E109C57C2654AA3300515A7A /* ZotPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZotPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E109C5802654AA3300515A7A /* ZotPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZotPlannerUITests.swift; sourceTree = "<group>"; };
 		E109C5822654AA3300515A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10B115E2668D05E009E18D3 /* APIGEs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APIGEs.txt; sourceTree = "<group>"; };
+		E10B115F2668D05E009E18D3 /* APITerms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APITerms.txt; sourceTree = "<group>"; };
+		E10B11602668D05E009E18D3 /* APIDepartments.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APIDepartments.txt; sourceTree = "<group>"; };
+		E10B11612668D05F009E18D3 /* readableTerms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readableTerms.txt; sourceTree = "<group>"; };
+		E10B11622668D05F009E18D3 /* readableDepartments.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readableDepartments.txt; sourceTree = "<group>"; };
+		E10B11632668D05F009E18D3 /* readableGEs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readableGEs.txt; sourceTree = "<group>"; };
 		E1A92065265B48A100147B63 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E1FDEC862665FD61001498F1 /* TestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
 		E1FDEC8B2665FE1E001498F1 /* PickerExamplesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExamplesTableViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +157,12 @@
 		E109C55D2654AA3100515A7A /* ZotPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				E10B11602668D05E009E18D3 /* APIDepartments.txt */,
+				E10B115E2668D05E009E18D3 /* APIGEs.txt */,
+				E10B115F2668D05E009E18D3 /* APITerms.txt */,
+				E10B11622668D05F009E18D3 /* readableDepartments.txt */,
+				E10B11632668D05F009E18D3 /* readableGEs.txt */,
+				E10B11612668D05F009E18D3 /* readableTerms.txt */,
 				E109C55E2654AA3100515A7A /* AppDelegate.swift */,
 				E109C5602654AA3100515A7A /* SceneDelegate.swift */,
 				E109C5622654AA3100515A7A /* ViewController.swift */,
@@ -286,6 +304,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E109C56B2654AA3300515A7A /* LaunchScreen.storyboard in Resources */,
+				E10B11672668D05F009E18D3 /* readableTerms.txt in Resources */,
+				E10B11642668D05F009E18D3 /* APIGEs.txt in Resources */,
+				E10B11652668D05F009E18D3 /* APITerms.txt in Resources */,
+				E10B11682668D05F009E18D3 /* readableDepartments.txt in Resources */,
+				E10B11692668D05F009E18D3 /* readableGEs.txt in Resources */,
+				E10B11662668D05F009E18D3 /* APIDepartments.txt in Resources */,
 				E109C5682654AA3300515A7A /* Assets.xcassets in Resources */,
 				E109C5662654AA3100515A7A /* Main.storyboard in Resources */,
 			);
